@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guess The Number</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+	<link href="css/guessing-game-style.css" rel="stylesheet" media="screen">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <header class="page-header" align="left">
+        <h1 style="color:purple">Guess The Number</h1>
+      </header>
+	  
+      <div class="jumbotron"> 
+		<ul class="list-inline">
+			<li>
+				<h3><span class="label label-primary">Guesses Left:
+				   <span class="badge badge-info">5</span>
+				   </span>
+			   </h3>
+			</li>
+		  <li> <button type="submit" class="btn btn-success">Give Me A Hint</button> </li>
+		</ul>  
+
+        <h1 align="center" style="color:red; font-size:800%; margin-top:60px;">Let's Play!</h1>
+        <p class="lead" align="center" style="color:black"><b>Click Play To Begin</b></p>
+		
+		<h1 align="center" style="color:red; font-size:600%; margin-top:60px">?</h1>
+
+		<div class="container" align="center" style="margin-top:60px">
+		<input type="button" class="btn btn-playButton btn-lg" value="PLAY">
+		</div>
+		
+		<div class="container" align="center" style="margin-top:60px">
+		<form class="form-inline" align="center">
+		    <div class="input-group">
+		      <input type="number" class="form-control" id="NumberInput" placeholder="Input From 1-100">
+		    </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+		</div>
+		
+		<div class="container" align="center">
+			<h2> <span class="label label-default">Pick A Number</span> </h2>
+		</div>
+      </div>
+    </div>
+  </body>
+</html>
